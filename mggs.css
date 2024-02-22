@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: #22092C; */
+    /* background: rgb(240,255,130);
+    /* background: radial-gradient(circle, rgba(240,255,130,1) 0%, rgba(113,116,55,1) 100%);  */
+    background: url(/img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    height: 10%vp;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: system-ui;
+    /* content: normal; */
+}
+a{
+    text-decoration: none;
+    color: #e4f041;
+}
+
+#h1 {
+    height: 10%vp;
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    font-family: system-ui;
+    justify-content: center;
+    /* background-color: #872341;
+    color: #22092C; */
+    box-shadow: 0 0 10 rgba(0, 0, 0, .2);
+    color: #ffff;
+    outline: none; 
+    border-top: 2px solid rgba(255,255, 255, .2);
+}
+p{
+    height: 4%vp;
+    display: flex;
+    font-family: system-ui;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    font-family: system-ui;
+    justify-content: center;
+    /* background-color: #872341;
+    color: #22092C; */
+    box-shadow: 0 0 10 rgba(0, 0, 0, .2);
+    color: #ffff;
+    outline: none; 
+    border-bottom: 2px solid rgba(255,255, 255, .2);
+}
+#main{
+    /* background-image: url(/img/MGGS-removebg-preview.png); */
+    display: flex;
+    height: 100%vp;
+    width: 100%;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    position: relative;
+    background-image: url(img/MGGS-removebg-preview.png)  opacity 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  
+}
+/* #bgimg{
+    z-index: -1;
+    size-adjust: 400px;
+    opacity: 10%;
+    
+} */
+.heading a{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    font-weight: 100;
+    box-shadow: 0, 0, 10, rgba(0, 0, 0, .2);
+    border: 2px solid rgba(0, 0, 0, .2);
+
+}
+
+.heading a:hover{
+    cursor: pointer;
+    background: transparent;
+    color: rgb(255, 255, 255); 
+    background-color: #ffee6eec;
+    font-size: 16px;
+    font-weight: 600;   
+}

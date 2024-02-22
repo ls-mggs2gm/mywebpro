@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    background: url(/img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: system-ui;
+    /* content: normal; */
+}
+a{
+    text-decoration: none;
+    color: #e4f041;
+}
+
+.heading a{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    /* position: relative; */
+    margin: 35% 2% 8% 33%;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    font-weight: 100;
+    box-shadow: 0, 0, 10, rgba(0, 0, 0, .2);
+    border: 2px solid rgba(0, 0, 0, .2);
+
+}
+
+.heading a:hover{
+    cursor: pointer;
+    background: transparent;
+    color: rgb(255, 255, 255); 
+    background-color: #ffee6eec;
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+.wrapper h1{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.wrapper{
+    width: 420px;
+    position: fixed;
+    margin: 12% 35% 0;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10 rgba(0, 0, 0, .2);
+    color: #ffff;
+    border-radius: 10px;
+    outline: none; 
+    border: 2px solid rgba(255,255, 255, .2);
+    padding: 7px 40px 30px;
+
+}
+.wrapper h1 {
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffff;
+    padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+ 
+.remember-forgot label input{
+    accent-color: #ffff;
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    background: rgb(8,27,41);
+    background: linear-gradient(0deg, rgba(8,27,41,1) 25%, rgba(0,238,255,1) 50%, rgba(8,27,41,1) 75%, rgba(0,238,255,1) 100%);
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn:hover::before{
+    top: 0;
+}
+
+.wrapper .register-link {
+   font-size: 12.5px;
+   margin: 20px 0 15px;
+   text-align: center;
+   color: #ffff;
+}
+
+/* .wrapper .register-link:hover{
+    text-decoration: underline;
+} */
+
+.register-link p a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+
+}

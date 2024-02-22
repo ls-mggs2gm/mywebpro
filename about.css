@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(/img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: system-ui;
+    /* content: normal; */
+}
+a{
+    text-decoration: none;
+    color: #e4f041;
+}
+
+.heading a{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    /* position: relative; */
+    margin: 2% 2% 8% 3%;;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    font-weight: 100;
+    box-shadow: 0, 0, 10, rgba(0, 0, 0, .2);
+    border: 2px solid rgba(0, 0, 0, .2);
+
+}
+
+.heading a:hover{
+    cursor: pointer;
+    background: transparent;
+    color: rgb(255, 255, 255); 
+    background-color: #ffee6eec;
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.about {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
